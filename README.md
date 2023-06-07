@@ -1,2 +1,2 @@
 # learning
-testing out projects on MDN
+testing out projects from MDN
