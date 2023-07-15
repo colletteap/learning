@@ -1,0 +1,15 @@
+  .navbar {
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+
+  .navbar h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+
+  #padding {
+    font-size: 50px;
+    padding: 500px;
+  }
