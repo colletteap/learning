@@ -1,20 +1,53 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Customizable Calendar for Teachers</title>
     <style>
-        /* Add your CSS styling here */
+        #addDayButton {
+            border-style: dashed;
+            border-radius: 2px;
+            margin-bottom: 1px;
+        }
+
+        #calendar {
+            display: flex;
+            padding: 5px;
+            background-color: #fff;
+            height: 200px;
+            width: 515px;
+            border-radius: 3px;
+            border: solid;
+            margin-bottom: 10px;
+        }
+
         .day {
             display: none;
         }
+
+        .addPeriodButton {
+            width: 50px;
+            height: 40px;
+            background-color: #fff;
+            border: dotted black;
+            align-content: center;
+        }
+
         .period {
             display: none;
             border: 1px solid #ccc;
             padding: 5px;
             margin: 5px;
         }
+
+        .periods {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+        }
     </style>
 </head>
+
 <body>
     <h1>Customizable Calendar for Teachers</h1>
     <button id="addDayButton">Add Day</button>
@@ -31,12 +64,109 @@
             </div>
         </div>
 
-        <!-- Add more day divs here up to a maximum of 10 -->
+        <div class="day">
+            <h2>Day 2</h2>
+            <button class="addPeriodButton">Add Period</button>
+            <div class="periods">
+                <!-- Period 2 -->
+                <div class="period">
+                    <h3>Period 2</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="day">
+            <h2>Day 3</h2>
+            <button class="addPeriodButton">Add Period</button>
+            <div class="periods">
+                <!-- Period 3 -->
+                <div class="period">
+                    <h3>Period 3</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="day">
+            <h2>Day 4</h2>
+            <button class="addPeriodButton">Add Period</button>
+            <div class="periods">
+                <!-- Period 4 -->
+                <div class="period">
+                    <h3>Period 4</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="day">
+            <h2>Day 5</h2>
+            <button class="addPeriodButton">Add Period</button>
+            <div class="periods">
+                <!-- Period 5 -->
+                <div class="period">
+                    <h3>Period 5</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="day">
+            <h2>Day 6</h2>
+            <button class="addPeriodButton">Add Period</button>
+            <div class="periods">
+                <!-- Period 6 -->
+                <div class="period">
+                    <h3>Period 6</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="day">
+            <h2>Day 7</h2>
+            <button class="addPeriodButton">Add Period</button>
+            <div class="periods">
+                <!-- Period 7 -->
+                <div class="period">
+                    <h3>Period 7</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="day">
+            <h2>Day 8</h2>
+            <button class="addPeriodButton">Add Period</button>
+            <div class="periods">
+                <!-- Period 8 -->
+                <div class="period">
+                    <h3>Period 8</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="day">
+            <h2>Day 9</h2>
+            <button class="addPeriodButton">Add Period</button>
+            <div class="periods">
+                <!-- Period 9 -->
+                <div class="period">
+                    <h3>Period 9</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="day">
+            <h2>Day 10</h2>
+            <button class="addPeriodButton">Add Period</button>
+            <div class="periods">
+                <!-- Period 10 -->
+                <div class="period">
+                    <h3>Period 10</h3>
+                </div>
+            </div>
+        </div>
 
     </div>
 
     <script>
-        // Add your JavaScript code here
+
         const maxDays = 10;
         const maxPeriods = 10;
         let currentDay = 1;
@@ -72,4 +202,5 @@
         });
     </script>
 </body>
+
 </html>
